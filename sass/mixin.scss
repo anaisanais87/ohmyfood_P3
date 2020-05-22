@@ -1,0 +1,51 @@
+@mixin menus{
+    width: 42%;
+    height: 232px;
+    font-size: 0.8em;
+    text-align: center;
+    box-shadow: 5px 5px 10px #DEDEDE;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin zoom{
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+        &:hover {
+            transform: scale(1.25);
+        }
+}
+
+@mixin menu-index{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 7% 5% 7% 5%;
+}
+
+@mixin menu-big{
+    width: 85%;
+    box-shadow: 5px 5px 5px #DEDEDE;
+    margin: auto;   
+    margin-bottom: 8%;
+}
+
+@mixin menus_media_small{
+    width: 60%;
+    min-width: 60%;
+    height: 232px;
+}
+
+@mixin menus_media_medium{
+    width: 42%;
+    height: 350px;
+}
+
+@mixin menus_media_large{
+    max-width: 280px;
+    height: 380px;
+}
+

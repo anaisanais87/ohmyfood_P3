@@ -1,0 +1,1004 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Kalam";
+  src: url("fonts/Kalam-Bold.eot");
+  src: url("fonts/Kalam-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Kalam-Bold.woff2") format("woff2"), url("fonts/Kalam-Bold.woff") format("woff"), url("fonts/Kalam-Bold.ttf") format("truetype"), url("fonts/Kalam-Bold.svg#Kalam-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kalam";
+  src: url("fonts/Kalam-Regular.eot");
+  src: url("fonts/Kalam-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Kalam-Regular.woff2") format("woff2"), url("fonts/Kalam-Regular.woff") format("woff"), url("fonts/Kalam-Regular.ttf") format("truetype"), url("fonts/Kalam-Regular.svg#Kalam-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bitstream Vera Serif";
+  src: url("fonts/BitstreamVeraSerif-Bold.eot");
+  src: url("fonts/BitstreamVeraSerif-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/BitstreamVeraSerif-Bold.woff2") format("woff2"), url("fonts/BitstreamVeraSerif-Bold.woff") format("woff"), url("fonts/BitstreamVeraSerif-Bold.ttf") format("truetype"), url("fonts/BitstreamVeraSerif-Bold.svg#BitstreamVeraSerif-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lido STF";
+  src: url("fonts/LidoSTF.eot");
+  src: url("fonts/LidoSTF.eot?#iefix") format("embedded-opentype"), url("fonts/LidoSTF.woff2") format("woff2"), url("fonts/LidoSTF.woff") format("woff"), url("fonts/LidoSTF.ttf") format("truetype"), url("fonts/LidoSTF.svg#LidoSTF") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "tamo";
+  src: url("fonts/tamo.eot");
+  src: url("fonts/tamo.eot?#iefix") format("embedded-opentype"), url("fonts/tamo.woff2") format("woff2"), url("fonts/tamo.woff") format("woff"), url("fonts/tamo.ttf") format("truetype"), url("fonts/tamo.svg#tamo") format("svg");
+}
+@font-face {
+  font-family: "LLCharlotte";
+  src: url("fonts/LLCharlotte_1.eot");
+  src: url("fonts/LLCharlotte_1.eot?#iefix") format("embedded-opentype"), url("fonts/LLCharlotte_1.woff2") format("woff2"), url("fonts/LLCharlotte_1.woff") format("woff"), url("fonts/LLCharlotte_1.ttf") format("truetype"), url("fonts/LLCharlotte_1.svg#LLCharlotte") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Devonshire";
+  src: url("fonts/Devonshire-Regular.eot");
+  src: url("fonts/Devonshire-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Devonshire-Regular.woff2") format("woff2"), url("fonts/Devonshire-Regular.woff") format("woff"), url("fonts/Devonshire-Regular.ttf") format("truetype"), url("fonts/Devonshire-Regular.svg#Devonshire-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Regular.eot");
+  src: url("Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("Montserrat-Regular.woff2") format("woff2"), url("Montserrat-Regular.woff") format("woff"), url("Montserrat-Regular.ttf") format("truetype"), url("Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Linguistics Pro";
+  src: url("fonts/LinguisticsPro-Bold.eot");
+  src: url("fonts/LinguisticsPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/LinguisticsPro-Bold.woff2") format("woff2"), url("fonts/LinguisticsPro-Bold.woff") format("woff"), url("fonts/LinguisticsPro-Bold.ttf") format("truetype"), url("fonts/LinguisticsPro-Bold.svg#LinguisticsPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Linguistics Pro";
+  src: url("fonts/LinguisticsPro-Regular.eot");
+  src: url("fonts/LinguisticsPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/LinguisticsPro-Regular.woff2") format("woff2"), url("fonts/LinguisticsPro-Regular.woff") format("woff"), url("fonts/LinguisticsPro-Regular.ttf") format("truetype"), url("fonts/LinguisticsPro-Regular.svg#LinguisticsPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merienda";
+  src: url("fonts/Merienda-Regular_0_wt.eot");
+  src: url("fonts/Merienda-Regular_0_wt.eot?#iefix") format("embedded-opentype"), url("fonts/Merienda-Regular_0_wt.woff2") format("woff2"), url("fonts/Merienda-Regular_0_wt.woff") format("woff"), url("fonts/Merienda-Regular_0_wt.ttf") format("truetype"), url("fonts/Merienda-Regular_0_wt.svg#Merienda-Regular_0_wt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Croissant One";
+  src: url("fonts/CroissantOne-Regular.eot");
+  src: url("fonts/CroissantOne-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/CroissantOne-Regular.woff2") format("woff2"), url("fonts/CroissantOne-Regular.woff") format("woff"), url("fonts/CroissantOne-Regular.ttf") format("truetype"), url("fonts/CroissantOne-Regular.svg#CroissantOne-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("fonts/Caveat-Regular.eot");
+  src: url("fonts/Caveat-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Caveat-Regular.woff2") format("woff2"), url("fonts/Caveat-Regular.woff") format("woff"), url("fonts/Caveat-Regular.ttf") format("truetype"), url("fonts/Caveat-Regular.svg#Caveat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Merienda";
+  src: url("fonts/Merienda-Bold.eot");
+  src: url("fonts/Merienda-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Merienda-Bold.woff2") format("woff2"), url("fonts/Merienda-Bold.woff") format("woff"), url("fonts/Merienda-Bold.ttf") format("truetype"), url("fonts/Merienda-Bold.svg#Merienda-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.eot");
+  src: url("fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Montserrat-Regular.woff2") format("woff2"), url("fonts/Montserrat-Regular.woff") format("woff"), url("fonts/Montserrat-Regular.ttf") format("truetype"), url("fonts/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dancing Script OT";
+  src: url("fonts/DancingScriptOT.eot");
+  src: url("fonts/DancingScriptOT.eot?#iefix") format("embedded-opentype"), url("fonts/DancingScriptOT.woff2") format("woff2"), url("fonts/DancingScriptOT.woff") format("woff"), url("fonts/DancingScriptOT.ttf") format("truetype"), url("fonts/DancingScriptOT.svg#DancingScriptOT") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+#bloc_page {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+/*All page*/
+a {
+  display: block;
+  text-decoration: none;
+}
+
+/*header*/
+header {
+  background-color: #579C87;
+  height: 80px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1.4rem;
+  font-size: 2.6em;
+  color: #FDCB46;
+  text-align: center;
+  font-family: "tamo", serif;
+  font-weight: normal;
+}
+
+/*Section*/
+.first-line {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 7% 5% 7% 5%;
+}
+
+.first-line div {
+  cursor: pointer;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
+}
+.first-line div:hover {
+  transform: scale(1.25);
+}
+
+.last-line {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 7% 5% 7% 5%;
+  margin-bottom: 7%;
+}
+
+.last-line div {
+  cursor: pointer;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
+}
+.last-line div:hover {
+  transform: scale(1.25);
+}
+
+.menu-1 {
+  background-color: #FDE0DC;
+  width: 42%;
+  height: 232px;
+  font-size: 0.8em;
+  text-align: center;
+  box-shadow: 5px 5px 10px #DEDEDE;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-1 img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-1 h3 {
+  margin-top: 0;
+  color: black;
+  font-family: "Comic sans MS", serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.menu-1 h2 {
+  margin-top: 0;
+  color: black;
+  font-family: "devonshire", serif;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.menu-2 {
+  background-color: #FFF5FE;
+  width: 42%;
+  height: 232px;
+  font-size: 0.8em;
+  text-align: center;
+  box-shadow: 5px 5px 10px #DEDEDE;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-2 h3 {
+  color: #C67412;
+  margin-top: 0;
+  font-size: 1.5em;
+  font-family: "Linguistics Pro", serif;
+  font-weight: 550;
+}
+
+.menu-2 h2 {
+  font-family: "Croissant One", serif;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.menu-3 {
+  background-color: #EDEFEF;
+  width: 42%;
+  height: 232px;
+  font-size: 0.8em;
+  text-align: center;
+  box-shadow: 5px 5px 10px #DEDEDE;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-3 h3 {
+  color: #0228DD;
+  font-family: "caveat", serif;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.menu-3 h2 {
+  font-family: "Dancing Script OT", serif;
+  font-weight: normal;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+  font-size: 1.2em;
+}
+
+.menu-4 {
+  background-color: #FDFFFD;
+  width: 42%;
+  height: 232px;
+  font-size: 0.8em;
+  text-align: center;
+  box-shadow: 5px 5px 10px #DEDEDE;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-4 h3 {
+  color: #3D923A;
+  font-family: "Caveat", serif;
+  font-weight: normal;
+  margin-top: 5%;
+  font-size: 2em;
+}
+
+.menu-4 h2 {
+  font-family: "merienda", serif;
+  font-size: 1em;
+  font-style: italic;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+}
+
+.soon {
+  width: 50%;
+  text-align: center;
+  color: #FDCB46;
+  font-weight: normal;
+  border: 1px solid #579C87;
+  background-color: #579C87;
+  border-radius: 7px;
+  margin: auto;
+  margin-bottom: 17%;
+}
+
+.soon h2 {
+  margin: 0.25rem;
+  font-family: "montserrat", serif;
+  font-weight: normal;
+  font-size: 1.2em;
+  padding-bottom: 0.5rem;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.soon span {
+  display: inline-block;
+  animation: move 2s infinite;
+  animation-timing-function: ease-in-out;
+  font-size: 1.5em;
+}
+
+.soon span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.soon span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+@keyframes move {
+  50% {
+    opacity: 0;
+    transform: scale(0.7) translateY(10);
+  }
+}
+/*Footer*/
+footer {
+  background-color: #579C87;
+  font-family: "montserrat", serif;
+  font-weight: normal;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+footer h1 {
+  color: #FDCB46;
+  font-size: 1em;
+  font-weight: normal;
+}
+footer h1:hover {
+  animation: wiggle 0.8s infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/*Menu Note enchantée*/
+.up {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.menu-note {
+  background-color: #FDE0DC;
+  padding-bottom: 5%;
+  font-family: "kalam", serif;
+  width: 85%;
+  box-shadow: 5px 5px 5px #DEDEDE;
+  margin: auto;
+  margin-bottom: 8%;
+}
+
+#note {
+  display: block;
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-note h2 {
+  margin: 0;
+  text-align: center;
+  font-family: "devonshire", serif;
+  font-weight: normal;
+}
+
+.line_1 {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  margin-top: 2%;
+}
+
+.line_1 h3 {
+  font-size: 1em;
+  text-align: center;
+}
+
+table {
+  width: 99%;
+  border-spacing: 0;
+}
+
+tr {
+  line-height: 1.75em;
+}
+
+th {
+  text-align: left;
+  font-weight: normal;
+}
+
+td {
+  text-align: right;
+}
+
+.menu-note th {
+  font-weight: normal;
+  padding-left: 3%;
+  font-size: 0.8em;
+}
+
+.menu-note td {
+  font-weight: 600;
+  font-size: 0.8em;
+  padding-right: 3%;
+}
+
+.down {
+  margin: 10% 18% 6% 18%;
+  display: flex;
+  justify-content: center;
+}
+
+.down h2 {
+  font-family: "devonshire", serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+.down img {
+  margin: 1.5%;
+}
+
+/*Menu Chic à la française*/
+.menu-chic {
+  background-color: #FFF5FE;
+  padding-bottom: 10%;
+  width: 85%;
+  box-shadow: 5px 5px 5px #DEDEDE;
+  margin: auto;
+  margin-bottom: 8%;
+}
+
+.menu-chic h2 {
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 4%;
+  text-align: center;
+  font-family: "Croissant One", serif;
+  font-weight: normal;
+}
+
+.linear-gradient {
+  background: linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
+  background: -webkit-linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
+  background: -moz-linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.line_2 {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  margin-top: 5%;
+}
+
+.line_2 h3 {
+  font-size: 0.7em;
+  font-family: "Bitstream Vera Serif", serif;
+  text-align: center;
+}
+
+.first_2 {
+  color: #C67412;
+}
+
+.menu-chic th {
+  padding-left: 10%;
+  font-family: "Lido STF", serif;
+  font-weight: normal;
+  font-size: 0.75em;
+}
+
+.menu-chic td {
+  padding-right: 10%;
+  font-family: "Lido STF", serif;
+  font-weight: normal;
+  font-size: 0.75em;
+}
+
+.second_2 {
+  color: #A56799;
+}
+
+.third_2 {
+  color: #6E4CCC;
+}
+
+/*Menu Délice des papilles*/
+.menu-delice {
+  background-color: #EDEFEF;
+  padding-bottom: 10%;
+  font-family: "Merienda", serif;
+  width: 85%;
+  box-shadow: 5px 5px 5px #DEDEDE;
+  margin: auto;
+  margin-bottom: 8%;
+}
+
+.menu-delice h2 {
+  margin: 0;
+  padding-top: 8%;
+  text-align: center;
+  font-family: "Dancing Script OT", serif;
+  font-weight: normal;
+}
+
+.linear-gradient_3 {
+  background: linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
+  background: -webkit-linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
+  background: -moz-linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.line_3 h3 {
+  font-size: 0.9em;
+}
+
+.first_3 th {
+  font-size: 0.75em;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.first_3 td {
+  font-size: 0.75em;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.line_3 {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  margin-top: 7%;
+}
+
+.line_3 h3 {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/*Menu La palette du goût*/
+.menu-palette {
+  background-color: #FDFFFD;
+  padding-bottom: 10%;
+  font-family: "Caveat", serif;
+  width: 85%;
+  box-shadow: 5px 5px 5px #DEDEDE;
+  margin: auto;
+  margin-bottom: 8%;
+}
+
+.menu-palette h2 {
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-family: "Merienda", serif;
+  font-style: italic;
+}
+
+.linear-gradient_4 {
+  background: linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
+  background: -webkit-linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
+  background: -moz-linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.line_4 h3 {
+  font-size: 1.2em;
+}
+
+.menu-palette th {
+  font-size: 1em;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.menu-palette td {
+  font-size: 1em;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.line_4 {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  margin-top: 3%;
+}
+
+.line_4 h3 {
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 398px) {
+  /*Page d'acceuil*/
+  .first-line {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+
+  .last-line {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 7%;
+  }
+
+  .menu-1 {
+    width: 60%;
+    min-width: 60%;
+    height: 232px;
+    margin-bottom: 7%;
+  }
+
+  .menu-2 {
+    width: 60%;
+    min-width: 60%;
+    height: 232px;
+  }
+
+  .menu-3 {
+    width: 60%;
+    min-width: 60%;
+    height: 232px;
+    margin-bottom: 7%;
+  }
+
+  .menu-4 {
+    width: 60%;
+    min-width: 60%;
+    height: 232px;
+  }
+
+  .soon {
+    width: 240px;
+  }
+}
+@media screen and (min-width: 560px) {
+  /*Page d'accueil*/
+  header h1 {
+    font-size: 3.4em;
+    padding: 1rem;
+  }
+
+  .menu-1 {
+    width: 42%;
+    height: 350px;
+    margin-left: 6%;
+    margin-right: 2.5%;
+  }
+
+  .menu-1 h2 {
+    font-size: 1.6em;
+  }
+
+  .menu-1 h3 {
+    font-size: 1.8em;
+  }
+
+  .menu-2 {
+    width: 42%;
+    height: 350px;
+    margin-left: 2.5%;
+    margin-right: 6%;
+  }
+
+  .menu-2 h2 {
+    font-size: 1.2em;
+  }
+
+  .menu-2 h3 {
+    font-size: 1.6em;
+  }
+
+  .menu-3 {
+    width: 42%;
+    height: 350px;
+    margin-left: 6%;
+    margin-right: 2.5%;
+  }
+
+  .menu-3 h2 {
+    font-size: 1.8em;
+  }
+
+  .menu-3 h3 {
+    font-size: 2.2em;
+  }
+
+  .menu-4 {
+    width: 42%;
+    height: 350px;
+    margin-left: 2.5%;
+    margin-right: 6%;
+  }
+
+  .menu-4 h2 {
+    font-size: 1.5em;
+  }
+
+  .menu-4 h3 {
+    font-size: 2.2em;
+  }
+
+  .soon {
+    width: 300px;
+    margin-bottom: 12%;
+  }
+
+  /*Menu Note enchantée*/
+  .menu-note h2 {
+    font-size: 1.8em;
+  }
+
+  .line_1 h3 {
+    font-size: 1.2em;
+  }
+
+  .menu-note th {
+    font-size: 1em;
+  }
+
+  .menu-note td {
+    font-size: 1em;
+  }
+
+  /*Menu chic à la française*/
+  .menu-chic h2 {
+    font-size: 1.8em;
+  }
+
+  .line_2 h3 {
+    font-size: 1em;
+  }
+
+  .menu-chic th {
+    font-size: 0.9em;
+  }
+
+  .menu-chic td {
+    font-size: 0.9em;
+  }
+
+  /*Menu délices des papilles*/
+  .menu-delice h2 {
+    font-size: 2.2em;
+  }
+
+  .line_3 h3 {
+    font-size: 1.1em;
+  }
+
+  .menu-delice th {
+    font-size: 0.9em;
+  }
+
+  .menu-delice td {
+    font-size: 0.9em;
+  }
+
+  /*Menu palettes des saveurs*/
+  .menu-palette h2 {
+    font-size: 1.8em;
+  }
+
+  .line_4 h3 {
+    font-size: 1.5em;
+  }
+
+  .menu-palette th {
+    font-size: 1.3em;
+  }
+
+  .menu-palette td {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 750px) {
+  /*Page d'accueil*/
+  header h1 {
+    font-size: 4em;
+    padding: 0.8rem;
+  }
+
+  .first-line {
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .last-line {
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .menu-1 {
+    max-width: 280px;
+    height: 380px;
+  }
+
+  .menu-1 h2 {
+    font-size: 1.8em;
+  }
+
+  .menu-1 h3 {
+    font-size: 2em;
+  }
+
+  .menu-2 {
+    max-width: 280px;
+    height: 380px;
+  }
+
+  .menu-2 h2 {
+    font-size: 1.4em;
+  }
+
+  .menu-2 h3 {
+    font-size: 1.8em;
+  }
+
+  .menu-3 {
+    max-width: 280px;
+    height: 380px;
+  }
+
+  .menu-3 h2 {
+    font-size: 2em;
+  }
+
+  .menu-3 h3 {
+    font-size: 2.4em;
+  }
+
+  .menu-4 {
+    max-width: 280px;
+    height: 380px;
+  }
+
+  .menu-4 h2 {
+    font-size: 1.7em;
+  }
+
+  .menu-4 h3 {
+    font-size: 2.4em;
+  }
+
+  .soon {
+    width: 300px;
+    margin-bottom: 7%;
+  }
+
+  .soon h2 {
+    font-size: 1.4em;
+  }
+
+  footer h1 {
+    font-size: 1.2em;
+  }
+
+  /*Menu Note enchantée*/
+  .menu-note {
+    max-width: 900px;
+  }
+
+  .menu-note h2 {
+    font-size: 2.2em;
+  }
+
+  .line_1 h3 {
+    font-size: 1.4em;
+  }
+
+  .menu-note th {
+    font-size: 1.2em;
+  }
+
+  .menu-note td {
+    font-size: 1.2em;
+  }
+
+  /*Menu chic à la française*/
+  .menu-chic {
+    max-width: 900px;
+  }
+
+  .menu-chic h2 {
+    font-size: 2em;
+  }
+
+  .line_2 h3 {
+    font-size: 1.2em;
+  }
+
+  .menu-chic th {
+    font-size: 1.1em;
+  }
+
+  .menu-chic td {
+    font-size: 1.1em;
+  }
+
+  /*Menu délices des papilles*/
+  .menu-delice {
+    max-width: 900px;
+  }
+
+  .menu-delice h2 {
+    font-size: 2.4em;
+  }
+
+  .line_3 h3 {
+    font-size: 1.3em;
+  }
+
+  .menu-delice th {
+    font-size: 1.1em;
+  }
+
+  .menu-delice td {
+    font-size: 1.1em;
+  }
+
+  /*Menu palettes des saveurs*/
+  .menu-palette {
+    max-width: 900px;
+  }
+
+  .menu-palette h2 {
+    font-size: 2em;
+  }
+
+  .line_4 h3 {
+    font-size: 1.7em;
+  }
+
+  .menu-palette th {
+    font-size: 1.5em;
+  }
+
+  .menu-palette td {
+    font-size: 1.5em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

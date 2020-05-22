@@ -1,0 +1,344 @@
+@media screen and (max-width: 398px){
+    /*Page d'acceuil*/
+    .first-line{
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+       margin: auto;
+       margin-top: 7%;
+       margin-bottom: 7%;
+    }
+
+    .last-line{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 7%;
+    }
+
+    .menu-1{
+        @include menus_media_small;
+        margin-bottom: 7%;
+    }
+
+    .menu-2{
+        @include menus_media_small;
+    }
+
+    .menu-3{
+        @include menus_media_small;
+        margin-bottom: 7%;
+    }
+
+    .menu-4{
+        @include menus_media_small;
+    }
+
+    .soon{
+        width: 240px;
+    }
+
+}
+
+
+@media screen and (min-width: 560px){
+    /*Page d'accueil*/
+    header h1{
+        font-size:3.4em ;
+        padding: 1rem ;
+    }
+
+    .menu-1{
+        @include menus_media_medium;
+        margin-left: 6%;
+        margin-right: 2.5%;
+    }
+
+    .menu-1 h2{
+        font-size:1.6em;
+    }
+
+    .menu-1 h3{
+        font-size: 1.8em;
+    }
+
+    .menu-2{
+        @include menus_media_medium;
+        margin-left: 2.5%;
+        margin-right: 6%;
+    
+    }
+
+    .menu-2 h2{
+        font-size: 1.2em;
+    }
+
+    .menu-2 h3{
+        font-size: 1.6em;
+    }
+
+    .menu-3{
+        @include menus_media_medium;
+        margin-left: 6%;
+        margin-right: 2.5%;
+    }
+
+    .menu-3 h2{
+        font-size: 1.8em;
+    }
+
+    .menu-3 h3{
+        font-size: 2.2em;
+    }
+
+    .menu-4{
+        @include menus_media_medium;
+        margin-left: 2.5%;
+        margin-right: 6%;
+    }
+
+    .menu-4 h2{
+        font-size: 1.5em;
+    }
+
+    .menu-4 h3{
+        font-size: 2.2em;
+    }
+
+    .soon{
+        width: 300px;
+        margin-bottom: 12%;
+    }
+
+    /*Menu Note enchantée*/
+    .menu-note h2{
+        font-size: 1.8em;
+    }
+    .line_1 h3{
+        font-size: 1.2em;  
+    }
+
+    .menu-note th{
+        font-size: 1em;
+    }
+
+    .menu-note td{
+        font-size: 1em;
+    }
+
+    /*Menu chic à la française*/
+    .menu-chic h2{
+        font-size: 1.8em;
+    }
+
+    .line_2 h3{
+        font-size: 1em;  
+    }
+
+    .menu-chic th{
+        font-size: 0.9em;
+    }
+
+    .menu-chic td{
+        font-size: 0.9em;
+    }
+
+    /*Menu délices des papilles*/
+
+    .menu-delice h2{
+        font-size: 2.2em;
+    }
+
+    .line_3 h3{
+        font-size: 1.1em;
+    }
+    .menu-delice th{
+        font-size: 0.9em;
+    }
+
+    .menu-delice td{
+        font-size: 0.9em;
+    }
+    
+    /*Menu palettes des saveurs*/
+    .menu-palette h2{
+        font-size: 1.8em;
+    }
+
+    .line_4 h3{
+        font-size: 1.5em;
+    }
+    .menu-palette th{
+        font-size: 1.3em;
+    }
+
+    .menu-palette td{
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 750px){
+    /*Page d'accueil*/
+   
+    header h1{
+       font-size:4em ;
+       padding: 0.8rem ;
+   }
+
+   .first-line{
+       justify-content: center;
+       margin-top: 4%;
+       margin-bottom: 4%;
+   }
+
+   .last-line{
+       justify-content: center;
+       margin-top: 4%;
+       margin-bottom: 4%;
+   }
+
+   .menu-1{
+       @include menus_media_large;
+      
+   }
+
+   .menu-1 h2{
+       font-size:1.8em;
+   }
+
+   .menu-1 h3{
+       font-size: 2em;
+   }
+
+   .menu-2{
+       @include menus_media_large;
+   }
+
+   .menu-2 h2{
+       font-size: 1.4em;
+   }
+
+   .menu-2 h3{
+       font-size: 1.8em;
+   }
+
+   .menu-3{
+       @include menus_media_large;
+   }
+
+   .menu-3 h2{
+       font-size: 2em;
+   }
+
+   .menu-3 h3{
+       font-size: 2.4em;
+   }
+
+   .menu-4{
+       @include menus_media_large;
+   }
+
+   .menu-4 h2{
+       font-size: 1.7em;
+   }
+
+   .menu-4 h3{
+       font-size: 2.4em;
+   }
+   
+   .soon{
+       width: 300px;
+       margin-bottom: 7%;
+   }
+
+   .soon h2{
+       font-size: 1.4em;
+   }
+
+   footer h1{
+       font-size: 1.2em;
+   }
+
+   /*Menu Note enchantée*/
+   .menu-note{
+       max-width: 900px;
+   }
+
+   .menu-note h2{
+       font-size: 2.2em;
+   }
+   .line_1 h3{
+       font-size: 1.4em;  
+   }
+
+   .menu-note th{
+       font-size: 1.2em;
+   }
+
+   .menu-note td{
+       font-size: 1.2em;
+   }
+
+   /*Menu chic à la française*/
+   .menu-chic{
+        max-width: 900px;
+    }
+   .menu-chic h2{
+       font-size: 2em;
+   }
+
+   .line_2 h3{
+       font-size: 1.2em;  
+   }
+
+   .menu-chic th{
+       font-size: 1.1em;
+   }
+
+   .menu-chic td{
+       font-size: 1.1em;
+   }
+
+   /*Menu délices des papilles*/
+   .menu-delice{
+        max-width: 900px;
+    }
+
+   .menu-delice h2{
+       font-size: 2.4em;
+   }
+
+   .line_3 h3{
+       font-size: 1.3em;
+   }
+   .menu-delice th{
+       font-size: 1.1em;
+   }
+
+   .menu-delice td{
+       font-size: 1.1em;
+   }
+   
+   /*Menu palettes des saveurs*/
+   .menu-palette{
+        max-width: 900px;
+    }
+
+   .menu-palette h2{
+       font-size: 2em;
+   }
+
+   .line_4 h3{
+       font-size: 1.7em;
+   }
+   .menu-palette th{
+       font-size: 1.5em;
+   }
+
+   .menu-palette td{
+       font-size: 1.5em;
+   }
+}
+
+    

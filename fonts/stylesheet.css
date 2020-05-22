@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Devonshire';
+    src: url('Devonshire-Regular.eot');
+    src: url('Devonshire-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Devonshire-Regular.woff2') format('woff2'),
+        url('Devonshire-Regular.woff') format('woff'),
+        url('Devonshire-Regular.ttf') format('truetype'),
+        url('Devonshire-Regular.svg#Devonshire-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.eot');
+    src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.ttf') format('truetype'),
+        url('Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('Merienda-Regular_0_wt.eot');
+    src: url('Merienda-Regular_0_wt.eot?#iefix') format('embedded-opentype'),
+        url('Merienda-Regular_0_wt.woff2') format('woff2'),
+        url('Merienda-Regular_0_wt.woff') format('woff'),
+        url('Merienda-Regular_0_wt.ttf') format('truetype'),
+        url('Merienda-Regular_0_wt.svg#Merienda-Regular_0_wt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Croissant One';
+    src: url('CroissantOne-Regular.eot');
+    src: url('CroissantOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CroissantOne-Regular.woff2') format('woff2'),
+        url('CroissantOne-Regular.woff') format('woff'),
+        url('CroissantOne-Regular.ttf') format('truetype'),
+        url('CroissantOne-Regular.svg#CroissantOne-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('Caveat-Regular.eot');
+    src: url('Caveat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Caveat-Regular.woff2') format('woff2'),
+        url('Caveat-Regular.woff') format('woff'),
+        url('Caveat-Regular.ttf') format('truetype'),
+        url('Caveat-Regular.svg#Caveat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merienda';
+    src: url('Merienda-Bold.eot');
+    src: url('Merienda-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Merienda-Bold.woff2') format('woff2'),
+        url('Merienda-Bold.woff') format('woff'),
+        url('Merienda-Bold.ttf') format('truetype'),
+        url('Merienda-Bold.svg#Merienda-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.eot');
+    src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff'),
+        url('Montserrat-Regular.ttf') format('truetype'),
+        url('Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing Script OT';
+    src: url('DancingScriptOT.eot');
+    src: url('DancingScriptOT.eot?#iefix') format('embedded-opentype'),
+        url('DancingScriptOT.woff2') format('woff2'),
+        url('DancingScriptOT.woff') format('woff'),
+        url('DancingScriptOT.ttf') format('truetype'),
+        url('DancingScriptOT.svg#DancingScriptOT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
