@@ -1,30 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ohmyfood</title>
-</head>
-
-<body>
-    <div id="bloc_page">
-
-        <header>
-            <a href="index.html">
-                <h1>ohmyfood</h1>
-            </a>
-        </header>
-
-
-        <section>
-
-            <div class="first-line">
-
-                <a href="menu-1.html" class="menu-1">
-                    <div>
-                        <svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -38,8 +13,8 @@
    id="svg5068"
    version="1.1"
    viewBox="0 0 38.002399 40.859959"
-   height="22mm"
-   width="12mm">
+   height="40.859959mm"
+   width="38.002399mm">
   <defs
      id="defs5062">
     <linearGradient
@@ -148,56 +123,3 @@
        id="path5759" />
   </g>
 </svg>
-
-
-                        <h2>La note enchantée</h2>
-                        <h3>Menu</h3>
-                    </div>
-                </a>
-
-
-                <a href="menu-2.html" class="menu-2">
-                    <div>
-                        <h2 class="linear-gradient">Le chic à la française</h2>
-                        <h3>Menu</h3>
-                    </div>
-                </a>
-            </div>
-
-            <div class="last-line">
-                <a href="menu-3.html" class="menu-3">
-                    <div>
-                        <h2 class="linear-gradient_3">Le délice des papilles</h2>
-                        <h3>Menu</h3>
-                    </div>
-
-                </a>
-
-                <a href="menu-4.html" class="menu-4">
-                    <div>
-                        <h2 class="linear-gradient_4">La palette du goût</h2>
-                        <h3>Menu</h3>
-                    </div>
-
-                </a>
-            </div>
-
-            <div class="soon">
-                <h2>Prochainement<span>.</span><span>.</span><span>.</span></h2>
-            </div>
-
-        </section>
-
-        <footer>
-            <a href="mentions-legales.html">
-                <h1>Mentions légales</h1>
-            </a>
-
-            <a href="mailto:anais.bertrand87@gmail.com">
-                <h1>Contactez-nous</h1>
-            </a>
-        </footer>
-    </div>
-</body>
-
-</html>

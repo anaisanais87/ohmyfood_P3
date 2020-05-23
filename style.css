@@ -190,14 +190,14 @@ header h1 {
   flex-direction: column;
 }
 
-.menu-1 img {
+.menu_note g {
   margin-left: auto;
   margin-right: auto;
 }
 
 .menu-1 h3 {
   margin-top: 0;
-  color: black;
+  color: #3D1319;
   font-family: "Comic sans MS", serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -206,7 +206,7 @@ header h1 {
 
 .menu-1 h2 {
   margin-top: 0;
-  color: black;
+  color: #3D1319;
   font-family: "devonshire", serif;
   font-size: 1.2em;
   font-weight: normal;
@@ -391,9 +391,10 @@ footer h1:hover {
   box-shadow: 5px 5px 5px #DEDEDE;
   margin: auto;
   margin-bottom: 8%;
+  color: #3D1319;
 }
 
-#note {
+.note {
   display: block;
   padding-top: 5%;
   margin-left: auto;
@@ -409,14 +410,18 @@ footer h1:hover {
 
 .line_1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 99%;
-  margin-top: 2%;
+  margin-top: 5%;
+  margin-right: 3%;
 }
 
 .line_1 h3 {
   font-size: 1em;
   text-align: center;
+  margin-top: -2%;
+  margin-bottom: 2%;
+  font-weight: 600;
 }
 
 table {
@@ -439,14 +444,14 @@ td {
 
 .menu-note th {
   font-weight: normal;
-  padding-left: 3%;
   font-size: 0.8em;
+  padding-left: 6%;
 }
 
 .menu-note td {
   font-weight: 600;
   font-size: 0.8em;
-  padding-right: 3%;
+  padding-right: 6%;
 }
 
 .down {
@@ -461,8 +466,9 @@ td {
   margin: 0;
 }
 
-.down img {
+.note-mini {
   margin: 1.5%;
+  margin-top: 0;
 }
 
 /*Menu Chic à la française*/
@@ -497,12 +503,15 @@ td {
   justify-content: space-between;
   width: 99%;
   margin-top: 5%;
+  margin-right: 3%;
 }
 
 .line_2 h3 {
   font-size: 0.7em;
   font-family: "Bitstream Vera Serif", serif;
   text-align: center;
+  margin-top: -2%;
+  margin-bottom: 2%;
 }
 
 .first_2 {
@@ -560,6 +569,8 @@ td {
 
 .line_3 h3 {
   font-size: 0.9em;
+  margin-top: -1%;
+  margin-bottom: 2%;
 }
 
 .first_3 th {
@@ -616,6 +627,8 @@ td {
 
 .line_4 h3 {
   font-size: 1.2em;
+  margin-top: -1%;
+  margin-bottom: 2%;
 }
 
 .menu-palette th {
@@ -634,7 +647,7 @@ td {
   display: flex;
   justify-content: space-between;
   width: 99%;
-  margin-top: 3%;
+  margin-top: 8%;
 }
 
 .line_4 h3 {
@@ -665,27 +678,27 @@ td {
   .menu-1 {
     width: 60%;
     min-width: 60%;
-    height: 232px;
+    height: 280px;
     margin-bottom: 7%;
   }
 
   .menu-2 {
     width: 60%;
     min-width: 60%;
-    height: 232px;
+    height: 280px;
   }
 
   .menu-3 {
     width: 60%;
     min-width: 60%;
-    height: 232px;
+    height: 280px;
     margin-bottom: 7%;
   }
 
   .menu-4 {
     width: 60%;
     min-width: 60%;
-    height: 232px;
+    height: 280px;
   }
 
   .soon {
@@ -921,6 +934,11 @@ td {
     max-width: 900px;
   }
 
+  .line1 {
+    width: 60mm;
+    height: 5mm;
+  }
+
   .menu-note h2 {
     font-size: 2.2em;
   }
@@ -999,6 +1017,26 @@ td {
   .menu-palette td {
     font-size: 1.5em;
   }
+}
+/*Mentions légales*/
+.mentions {
+  margin: 5% 10% 5% 10%;
+}
+
+.mentions h2 {
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 0;
+  color: #FDCB46;
+}
+
+.mentions h3 {
+  color: #FDCB46;
+  text-decoration: underline;
+}
+
+.mentions p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
