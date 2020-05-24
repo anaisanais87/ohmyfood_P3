@@ -66,10 +66,10 @@ header h1{
     @include menus;
 }
 
-.menu_note g{
-    margin-left: auto;
-    margin-right: auto;
+.menu-1 svg{
+    padding-bottom: 0;
 }
+
 .menu-1 h3{
     margin-top: 0;
     color: #3D1319;
@@ -83,8 +83,9 @@ header h1{
     margin-top: 0;
     color: #3D1319;
     font-family: 'devonshire', serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: normal;
+    margin-bottom: 2%;
 }
 .menu-2{
     background-color: $back_2;
@@ -115,6 +116,7 @@ header h1{
     font-family: 'caveat', serif;
     font-weight: normal;
     font-size: 2em;
+    margin-top: 8%;
     
 }
 
@@ -135,13 +137,13 @@ header h1{
     color:#3D923A;
     font-family: 'Caveat', serif;
     font-weight: normal;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 2em;
 }
 
 .menu-4 h2{
     font-family: "merienda", serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-style: italic;
     margin-block-end: 0em;
     margin-block-start: 0em;
@@ -269,6 +271,21 @@ footer h1{
     font-weight: 600;
 }
 
+.line_1 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+  .line_1 h3:hover:after {
+    width: 100%;
+    background: #3D1319;
+}
+
 table{
     width: 99%;
     border-spacing: 0;
@@ -364,6 +381,23 @@ td{
     
 }
 
+.first_2 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+
+  .first_2 h3:hover:after {
+    width: 100%;
+    background: #C67412;
+}
+
+
 .menu-chic th{
     padding-left: 10%;
     font-family: 'Lido STF', serif;
@@ -382,8 +416,40 @@ td{
     color: #A56799;
 }
 
+.second_2 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+
+.second_2 h3:hover:after {
+    width: 100%;
+    background: #A56799;
+}
+
 .third_2{
     color: #6E4CCC;
+}
+
+.third_2 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+
+.third_2 h3:hover:after {
+    width: 100%;
+    background: #6E4CCC;
 }
 
 /*Menu Délice des papilles*/
@@ -417,13 +483,13 @@ td{
     margin-bottom: 2%;
 }
 
-.first_3 th{
+.menu-delice th{
     font-size: 0.75em;
     padding-left: 8%;
    
 }
 
-.first_3 td{
+.menu-delice td{
     font-size: 0.75em;
     padding-right: 8%;
 }
@@ -438,6 +504,50 @@ td{
 .line_3 h3{
     font-size: 0.8em;
     text-align: center;
+}
+
+.first_3 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+.first_3 h3:hover:after {
+    width: 100%;
+    background:#0228DD;
+}
+
+.second_3 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+.second_3 h3:hover:after {
+    width: 100%;
+    background:#0670F3;
+}
+.third_3 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+.third_3 h3:hover:after {
+    width: 100%;
+    background:#56B3F7;
 }
 
 /*Menu La palette du goût*/
@@ -457,6 +567,21 @@ td{
     font-style: italic;
 }
 
+.line_4 h3:after {
+    content: "";
+    display: flex;
+    height: 1.5px;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.7s;
+    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    transition-delay: 0s;
+}
+  .line_4 h3:hover:after {
+    width: 100%;
+    background: #3C913A;
+}
+  
 .linear-gradient_4 {
     background: linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
     background: -webkit-linear-gradient(315deg,#3D923A 0%, #86D061 50%, #B4F679 80%);
@@ -470,15 +595,14 @@ td{
     margin-top: -1%;
     margin-bottom: 2%;
 }
+
 .menu-palette th{
     font-size: 1em;
     padding-left: 8%;
-    padding-right: 8%;
 }
 
 .menu-palette td{
     font-size: 1em;
-    padding-left: 8%;
     padding-right: 8%;
 }
 
@@ -498,13 +622,14 @@ td{
 @import "media.scss";
 
 /*Mentions légales*/
+
 .mentions{
     margin: 5% 10% 5% 10%;
 }
 
 .mentions h2{
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin-top: 0;
     color: $font;
 }

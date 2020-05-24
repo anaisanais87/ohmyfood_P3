@@ -3,7 +3,7 @@
     height: 232px;
     font-size: 0.8em;
     text-align: center;
-    box-shadow: 5px 5px 10px #DEDEDE;
+    box-shadow: 1px 0px 20px 4px #DEDEDE;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -28,7 +28,7 @@
 
 @mixin menu-big{
     width: 85%;
-    box-shadow: 5px 5px 5px #DEDEDE;
+    box-shadow:1px 0px 20px 4px #DEDEDE;
     margin: auto;   
     margin-bottom: 8%;
 }
@@ -36,7 +36,7 @@
 @mixin menus_media_small{
     width: 60%;
     min-width: 60%;
-    height: 280px;
+    height: 300px;
 }
 
 @mixin menus_media_medium{
