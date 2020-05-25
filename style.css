@@ -359,6 +359,7 @@ footer h1 {
 }
 footer h1:hover {
   animation: wiggle 0.8s infinite;
+  transition-delay: 0s;
 }
 
 @keyframes wiggle {
@@ -860,6 +861,31 @@ td {
 
   .soon {
     width: 240px;
+  }
+
+  footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  footer h1 {
+    font-size: 0.8em;
+  }
+
+  .menu-note {
+    margin-bottom: 20%;
+  }
+
+  .menu-chic {
+    margin-bottom: 20%;
+  }
+
+  .menu-delice {
+    margin-bottom: 20%;
+  }
+
+  .menu-palette {
+    margin-bottom: 20%;
   }
 
   .bar1 {

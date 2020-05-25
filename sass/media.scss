@@ -71,6 +71,31 @@
         width: 240px;
     }
 
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    footer h1{
+        font-size: 0.8em;
+    } 
+
+    .menu-note{
+        margin-bottom: 20%;
+    }
+
+    .menu-chic{
+        margin-bottom: 20%;
+    }
+
+    .menu-delice{
+        margin-bottom: 20%;
+    }
+
+    .menu-palette{
+        margin-bottom: 20%;
+    }
+
     .bar1{
         width: 30%;
     }
@@ -86,7 +111,6 @@
     .bar4{
         width: 30%;
     }
-
 }
 
 @media screen and (max-width: 560px){
