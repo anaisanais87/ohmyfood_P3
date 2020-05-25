@@ -392,7 +392,7 @@ footer h1:hover {
   width: 85%;
   box-shadow: 1px 0px 20px 4px #DEDEDE;
   margin: auto;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
   color: #3D1319;
 }
 
@@ -496,7 +496,7 @@ td {
   width: 85%;
   box-shadow: 1px 0px 20px 4px #DEDEDE;
   margin: auto;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
 }
 
 .menu-chic h2 {
@@ -614,7 +614,7 @@ td {
   width: 85%;
   box-shadow: 1px 0px 20px 4px #DEDEDE;
   margin: auto;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
 }
 
 .menu-delice h2 {
@@ -717,7 +717,7 @@ td {
   width: 85%;
   box-shadow: 1px 0px 20px 4px #DEDEDE;
   margin: auto;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
 }
 
 .menu-palette h2 {
@@ -905,6 +905,22 @@ td {
   }
 }
 @media screen and (max-width: 560px) {
+  .menu-note {
+    margin-bottom: 20%;
+  }
+
+  .menu-chic {
+    margin-bottom: 20%;
+  }
+
+  .menu-delice {
+    margin-bottom: 20%;
+  }
+
+  .menu-palette {
+    margin-bottom: 20%;
+  }
+
   .bar3 {
     width: 25%;
   }

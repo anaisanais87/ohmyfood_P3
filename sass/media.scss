@@ -113,7 +113,24 @@
     }
 }
 
+
 @media screen and (max-width: 560px){
+    .menu-note{
+        margin-bottom: 20%;
+    }
+
+    .menu-chic{
+        margin-bottom: 20%;
+    }
+
+    .menu-delice{
+        margin-bottom: 20%;
+    }
+
+    .menu-palette{
+        margin-bottom: 20%;
+    }
+
     .bar3{
         width: 25%;
     }
@@ -122,6 +139,9 @@
         width: 25%;
     }
 }
+
+
+
 
 @media screen and (min-width: 560px){
     /*Page d'accueil*/
@@ -196,9 +216,7 @@
     .menu-note h2{
         font-size: 1.8em;
     }
-
-    
-
+   
     .line_1 h3{
         font-size: 1.2em;  
     }
@@ -262,7 +280,6 @@
     }
 }
 
-    
 @media screen and (min-width: 750px){
     /*Page d'accueil*/
    
@@ -349,6 +366,7 @@
         line-height: 2.2em;
     }
    /*Menu Note enchantée*/
+   
    .menu-note{
        max-width: 900px;
    }
@@ -433,6 +451,3 @@
        font-size: 1.5em;
    }
 }
-
-
-    
