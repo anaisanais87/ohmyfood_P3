@@ -229,7 +229,7 @@ header h1 {
   margin-top: 0;
   font-size: 1.5em;
   font-family: "Linguistics Pro", serif;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 .menu-2 h2 {
@@ -261,8 +261,6 @@ header h1 {
 .menu-3 h2 {
   font-family: "Dancing Script OT", serif;
   font-weight: normal;
-  margin-block-end: 0em;
-  margin-block-start: 0em;
   font-size: 1.2em;
 }
 
@@ -290,8 +288,6 @@ header h1 {
   font-family: "merienda", serif;
   font-size: 1.2em;
   font-style: italic;
-  margin-block-end: 0em;
-  margin-block-start: 0em;
 }
 
 .soon {
@@ -312,8 +308,6 @@ header h1 {
   font-weight: normal;
   font-size: 1.2em;
   padding-bottom: 0.5rem;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 
 .soon span {
@@ -334,7 +328,7 @@ header h1 {
 @keyframes move {
   50% {
     opacity: 0;
-    transform: scale(0.7) translateY(10);
+    transform: scale(0.7) translateY(10px);
   }
 }
 /*Footer*/
