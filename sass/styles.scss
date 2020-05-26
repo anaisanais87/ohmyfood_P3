@@ -350,6 +350,7 @@ td{
     background: linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
     background: -webkit-linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
     background: -moz-linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -466,6 +467,7 @@ td{
     background: linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
     background: -webkit-linear-gradient(315deg,#0228DD 0%, #0670F3 50%);
     background: -moz-linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -579,6 +581,7 @@ td{
     background: linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
     background: -webkit-linear-gradient(315deg,#3D923A 0%, #86D061 50%, #B4F679 80%);
     background: -moz-linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -612,8 +615,6 @@ td{
     text-align: center;
 }
 
-@import "media.scss";
-
 /*Mentions légales*/
 
 .mentions{
@@ -634,5 +635,7 @@ td{
 .mentions p{
     text-align: justify;
 }
+
+@import "media.scss";
 
 

@@ -506,6 +506,7 @@ td {
   background: linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
   background: -webkit-linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
   background: -moz-linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -623,6 +624,7 @@ td {
   background: linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
   background: -webkit-linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
   background: -moz-linear-gradient(315deg, #0228DD 0%, #0670F3 50%);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -743,6 +745,7 @@ td {
   background: linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
   background: -webkit-linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
   background: -moz-linear-gradient(315deg, #3D923A 0%, #86D061 50%, #B4F679 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -774,6 +777,27 @@ td {
   font-size: 1em;
   font-weight: normal;
   text-align: center;
+}
+
+/*Mentions légales*/
+.mentions {
+  margin: 5% 10% 5% 10%;
+}
+
+.mentions h2 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 0;
+  color: #FDCB46;
+}
+
+.mentions h3 {
+  color: #FDCB46;
+  text-decoration: underline;
+}
+
+.mentions p {
+  text-align: justify;
 }
 
 @media screen and (max-width: 398px) {
@@ -1239,26 +1263,6 @@ td {
   .menu-palette td {
     font-size: 1.5em;
   }
-}
-/*Mentions légales*/
-.mentions {
-  margin: 5% 10% 5% 10%;
-}
-
-.mentions h2 {
-  text-align: center;
-  font-size: 1.6em;
-  margin-top: 0;
-  color: #FDCB46;
-}
-
-.mentions h3 {
-  color: #FDCB46;
-  text-decoration: underline;
-}
-
-.mentions p {
-  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
