@@ -30,16 +30,16 @@ a{
 header{
     background-color:$back;
     height: 80px;
-}
 
-header h1{
-    margin: 0;
-    padding: 1.4rem ;
-    font-size:2.6em ;
-    color: $font;
-    text-align: center;
-    font-family: 'tamo', serif;
-    font-weight: normal;
+    h1{
+        margin: 0;
+        padding: 1.4rem ;
+        font-size:2.6em ;
+        color: $font;
+        text-align: center;
+        font-family: 'tamo', serif;
+        font-weight: normal;
+    }
 }
 
 /*Section*/
@@ -64,85 +64,85 @@ header h1{
 .menu-1{
     background-color: $back_1;
     @include menus;
+
+    svg{
+        padding-bottom: 0;
+    }
+
+    h2{
+        margin-top: 0;
+        color: #3D1319;
+        font-family: 'devonshire', serif;
+        font-size: 1.4em;
+        font-weight: normal;
+        margin-bottom: 2%;
+    }
+
+    h3{
+        margin-top: 0;
+        color: #3D1319;
+        font-family: 'Comic sans MS', serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-style: italic;  
+    }
 }
 
-.menu-1 svg{
-    padding-bottom: 0;
-}
-
-.menu-1 h3{
-    margin-top: 0;
-    color: #3D1319;
-    font-family: 'Comic sans MS', serif;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-style: italic;  
-}
-
-.menu-1 h2{
-    margin-top: 0;
-    color: #3D1319;
-    font-family: 'devonshire', serif;
-    font-size: 1.4em;
-    font-weight: normal;
-    margin-bottom: 2%;
-}
 .menu-2{
     background-color: $back_2;
     @include menus;
-}
 
-.menu-2 h3{
-    color:#C67412 ;
-    margin-top: 0;
-    font-size: 1.5em;
-    font-family: 'Linguistics Pro', serif;
-    font-weight: 600;
-}
+    h2{
+        font-family: 'Croissant One', serif;
+        font-size: 0.8em;
+        font-weight: normal;
+    }
 
-.menu-2 h2{
-    font-family: 'Croissant One', serif;
-    font-size: 0.8em;
-    font-weight: normal;
+    h3{
+        color:#C67412 ;
+        margin-top: 0;
+        font-size: 1.5em;
+        font-family: 'Linguistics Pro', serif;
+        font-weight: 600;
+    }
 }
 
 .menu-3{
     background-color: $back_3;
     @include menus;
-}
 
-.menu-3 h3{
-    color: #0228DD;
-    font-family: 'caveat', serif;
-    font-weight: normal;
-    font-size: 2em;
-    margin-top: 8%;
-    
-}
+    h2{
+        font-family: 'Dancing Script OT', serif;
+        font-weight: normal;
+        font-size: 1.2em;
+    }
 
-.menu-3 h2{
-    font-family: 'Dancing Script OT', serif;
-    font-weight: normal;
-    font-size: 1.2em;
+    h3{
+        color: #0228DD;
+        font-family: 'caveat', serif;
+        font-weight: normal;
+        font-size: 2em;
+        margin-top: 8%;
+    }
 }
 
 .menu-4{
     background-color: $back_4;
     @include menus;
-}
 
-.menu-4 h3{
-    color:#3D923A;
-    font-family: 'Caveat', serif;
-    font-weight: normal;
-    margin-top: 3%;
-    font-size: 2em;
-}
+    h2{
+        font-family: "merienda", serif;
+        font-size: 1.2em;
+        font-style: italic;
+    }
 
-.menu-4 h2{
-    font-family: "merienda", serif;
-    font-size: 1.2em;
-    font-style: italic;
+    h3{
+        color:#3D923A;
+        font-family: 'Caveat', serif;
+        font-weight: normal;
+        margin-top: 3%;
+        font-size: 2em;
+    }
 }
 
 .soon{
@@ -155,28 +155,28 @@ header h1{
     border-radius:7px ;
     margin: auto;
     margin-bottom: 17%; 
-}
 
-.soon h2{
-    margin: 0.25rem;
-    font-family: 'montserrat', serif;
-    font-weight: normal;
-    font-size: 1.2em;
-    padding-bottom: 0.5rem;
-}
+    h2{
+        margin: 0.25rem;
+        font-family: 'montserrat', serif;
+        font-weight: normal;
+        font-size: 1.2em;
+        padding-bottom: 0.5rem;
+    }
 
-.soon span{
-    font-size: 1.5em;
-    display: inline-block;
-    animation: move 2s infinite;
-    animation-timing-function: ease-in-out;
-}
+    span{
+        font-size: 1.5em;
+        display: inline-block;
+        animation: move 2s infinite;
+        animation-timing-function: ease-in-out;
+    }
 
-.soon span:nth-child(2){
-    animation-delay: 0.2s;
-}
-.soon span:nth-child(3){
-    animation-delay: 0.2s;
+        &:nth-child(2){
+            animation-delay: 0.2s;
+        }
+        &:nth-child(3){
+            animation-delay: 0.2s;
+        }
 }
 
 @keyframes move{
@@ -200,20 +200,20 @@ footer{
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-}
 
-footer h1{
-    color: $font;
-    font-size: 1em;
-    font-weight: normal;
-
-        &:hover{
-            animation-name: wiggle;
-            animation-duration: 1s;
-            animation-timing-function: ease;
-            animation-delay: 0s;
-            animation-iteration-count: infinite;
-            animation-direction: normal;
+    h1{
+        color: $font;
+        font-size: 1em;
+        font-weight: normal;
+    
+            &:hover{
+                animation-name: wiggle;
+                animation-duration: 1s;
+                animation-timing-function: ease;
+                animation-delay: 0s;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+        }
     }
 }
 
@@ -238,6 +238,13 @@ footer h1{
     font-family: 'kalam', serif;
     @include menu-big; 
     color: #3D1319;
+
+    h2{
+        margin: 0;
+        text-align: center;
+        font-family: 'devonshire', serif;
+        font-weight: normal;
+    }
 }
 
 .note{
@@ -247,39 +254,33 @@ footer h1{
     margin-right: auto;
 }
 
-.menu-note h2{
-    margin: 0;
-    text-align: center;
-    font-family: 'devonshire', serif;
-    font-weight: normal;
-}
-
 .line_1{
     display: flex;
     justify-content: space-around;
     width: 99%;
     margin-top: 5%;
     margin-right: 3%;
+
+    h3{
+        font-size: 1em;  
+        text-align: center; 
+        margin-top: -2%;
+        margin-bottom: 2%;
+        font-weight: 600;
+
+            &:after {
+                content: "";
+                display: flex;
+                height: 1.5px;
+                width: 0;
+                transition-delay: 0s;
+                transition-property: width;
+                transition-duration: 0.7s;
+                transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+        }
+    }
 }
 
-.line_1 h3{
-    font-size: 1em;  
-    text-align: center; 
-    margin-top: -2%;
-    margin-bottom: 2%;
-    font-weight: 600;
-}
-
-.line_1 h3:after {
-    content: "";
-    display: flex;
-    height: 1.5px;
-    width: 0;
-    transition-delay: 0s;
-    transition-property: width;
-    transition-duration: 0.7s;
-    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-}
   .line_1 h3:hover:after {
     width: 100%;
     background: #3D1319;
@@ -306,8 +307,7 @@ td{
 .menu-note th{
     font-weight: normal;
     font-size: 0.8em;
-    padding-left: 6%;
-    
+    padding-left: 6%;   
 }
 
 .menu-note td{
@@ -320,12 +320,12 @@ td{
     margin: 10% 18% 6% 18%;
     display: flex;
     justify-content: center;
-}
 
-.down h2{
-    font-family: 'devonshire', serif;
-    font-weight: normal;
-    margin: 0;
+    h2{
+        font-family: 'devonshire', serif;
+        font-weight: normal;
+        margin: 0;
+    }
 }
 
 .note-mini{
@@ -333,23 +333,23 @@ td{
     margin-top: 0;
 }
 
-
 /*Menu Chic à la française*/
 
 .menu-chic{
     background-color:$back_2;
     padding-bottom:10%;
     @include menu-big;   
+
+    h2{
+        margin: 0;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        text-align: center;
+        font-family: 'Croissant One', serif;
+        font-weight: normal;
+    }
 }
 
-.menu-chic h2{
-    margin: 0;
-    padding-top: 10%;
-    padding-bottom: 2%;
-    text-align: center;
-    font-family: 'Croissant One', serif;
-    font-weight: normal;
-}
 .linear-gradient {
     background: linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
     background: -webkit-linear-gradient(315deg, #c67412 0%, #a56799 50%, #6e4ccc 75%);
@@ -365,30 +365,30 @@ td{
     width: 99%;
     margin-top: 8%;
     margin-right: 3%;
-}
 
-.line_2 h3{
-    font-size: 0.70em; 
-    font-family: 'Bitstream Vera Serif', serif; 
-    text-align: center; 
-    margin-top: -1%;
-    margin-bottom: 4%;
+    h3{
+        font-size: 0.70em; 
+        font-family: 'Bitstream Vera Serif', serif; 
+        text-align: center; 
+        margin-top: -1%;
+        margin-bottom: 4%;
+    }
 }
 
 .first_2{
     color: #C67412;
-    
-}
 
-.first_2 h3:after {
-    content: "";
-    display: flex;
-    height: 1.5px;
-    width: 0;
-    transition-delay: 0s;
-    transition-property: width;
-    transition-duration: 0.7s;
-    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    h3:after {
+        content: "";
+        display: flex;
+        height: 1.5px;
+        width: 0;
+        transition-delay: 0s;
+        transition-property: width;
+        transition-duration: 0.7s;
+        transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    }
+    
 }
 
   .first_2 h3:hover:after {
@@ -412,17 +412,17 @@ td{
 
 .second_2{
     color: #A56799;
-}
 
-.second_2 h3:after {
-    content: "";
-    display: flex;
-    height: 1.5px;
-    width: 0;
-    transition-delay: 0s;
-    transition-property: width;
-    transition-duration: 0.7s;
-    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    h3:after {
+        content: "";
+        display: flex;
+        height: 1.5px;
+        width: 0;
+        transition-delay: 0s;
+        transition-property: width;
+        transition-duration: 0.7s;
+        transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    }
 }
 
 .second_2 h3:hover:after {
@@ -432,17 +432,17 @@ td{
 
 .third_2{
     color: #6E4CCC;
-}
 
-.third_2 h3:after {
-    content: "";
-    display: flex;
-    height: 1.5px;
-    width: 0;
-    transition-delay: 0s;
-    transition-property: width;
-    transition-duration: 0.7s;
-    transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    h3:after {
+        content: "";
+        display: flex;
+        height: 1.5px;
+        width: 0;
+        transition-delay: 0s;
+        transition-property: width;
+        transition-duration: 0.7s;
+        transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
+    }
 }
 
 .third_2 h3:hover:after {
@@ -457,14 +457,14 @@ td{
     padding-bottom:10%;
     font-family: 'Merienda', serif;
     @include menu-big;   
-}
 
-.menu-delice h2{
-    margin: 0;
-    padding-top: 8%;
-    text-align: center;
-    font-family: 'Dancing Script OT', serif;
-    font-weight: normal;
+    h2{
+        margin: 0;
+        padding-top: 8%;
+        text-align: center;
+        font-family: 'Dancing Script OT', serif;
+        font-weight: normal;
+    }
 }
 
 .linear-gradient_3 {
@@ -476,16 +476,9 @@ td{
     color: transparent;
 }
 
-.line_3 h3{
-    font-size: 0.9em;
-    margin-top: -1%;
-    margin-bottom: 2%;
-}
-
 .menu-delice th{
     font-size: 0.75em;
-    padding-left: 8%;
-   
+    padding-left: 8%;  
 }
 
 .menu-delice td{
@@ -498,11 +491,13 @@ td{
     justify-content: space-between;
     width: 99%;
     margin-top: 7%;
-}
 
-.line_3 h3{
-    font-size: 0.8em;
-    text-align: center;
+    h3{
+        font-size: 0.8em;
+        margin-top: -1%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
 }
 
 .first_3 h3:after {
@@ -544,6 +539,7 @@ td{
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
 }
+
 .third_3 h3:hover:after {
     width: 100%;
     background:#56B3F7;
@@ -555,15 +551,30 @@ td{
     padding-bottom:10%;
     font-family:'Caveat', serif;
     @include menu-big;   
+
+    h2{
+        margin: 0;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        text-align: center;
+        font-family: 'Merienda', serif;
+        font-style: italic;
+    }
 }
 
-.menu-palette h2{
-    margin: 0;
-    padding-top: 10%;
-    padding-bottom: 2%;
-    text-align: center;
-    font-family: 'Merienda', serif;
-    font-style: italic;
+.line_4{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin-top: 8%;
+
+    h3{
+        font-size: 1.2em;
+        margin-top: -1%;
+        margin-bottom: 2%;
+        font-weight: normal;
+        text-align: center;
+    }
 }
 
 .line_4 h3:after {
@@ -576,7 +587,8 @@ td{
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
 }
-  .line_4 h3:hover:after {
+
+.line_4 h3:hover:after {
     width: 100%;
     background: #3C913A;
 }
@@ -590,12 +602,6 @@ td{
     color: transparent;
 }
 
-.line_4 h3{
-    font-size: 1.2em;
-    margin-top: -1%;
-    margin-bottom: 2%;
-}
-
 .menu-palette th{
     font-size: 1em;
     padding-left: 8%;
@@ -606,38 +612,26 @@ td{
     padding-right: 8%;
 }
 
-.line_4{
-    display: flex;
-    justify-content: space-between;
-    width: 99%;
-    margin-top: 8%;
-}
-
-.line_4 h3{
-    font-size: 1em;
-    font-weight: normal;
-    text-align: center;
-}
-
 /*Mentions légales*/
 
 .mentions{
     margin: 5% 10% 5% 10%;
-}
 
-.mentions h2{
-    text-align: center;
-    font-size: 1.6em;
-    margin-top: 0;
-    color: $font;
-}
+    h2{
+        text-align: center;
+        font-size: 1.6em;
+        margin-top: 0;
+        color: $font;
 
-.mentions h3{
-    color: $font;
-    text-decoration: underline;
-}
-.mentions p{
-    text-align: justify;
+        h3{
+            color: $font;
+            text-decoration: underline;
+
+            p{
+                text-align: justify;
+            }
+        }
+    }
 }
 
 @import "media.scss";
