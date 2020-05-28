@@ -790,12 +790,10 @@ td {
     height: 300px;
     margin-bottom: 7%;
   }
-
   .menu-1 h2 {
     font-size: 1.8em;
   }
-
-  .menu-1 h3 {
+  .menu-1 h2 h3 {
     font-size: 1.4em;
   }
 
@@ -804,12 +802,10 @@ td {
     min-width: 60%;
     height: 300px;
   }
-
   .menu-2 h2 {
     font-size: 1.2em;
   }
-
-  .menu-2 h3 {
+  .menu-2 h2 h3 {
     font-size: 1.7em;
   }
 
@@ -819,12 +815,10 @@ td {
     height: 300px;
     margin-bottom: 7%;
   }
-
   .menu-3 h2 {
     font-size: 1.8em;
   }
-
-  .menu-3 h3 {
+  .menu-3 h2 h3 {
     font-size: 2.4em;
   }
 
@@ -833,12 +827,10 @@ td {
     min-width: 60%;
     height: 300px;
   }
-
   .menu-4 h2 {
     font-size: 1.4em;
   }
-
-  .menu-4 h3 {
+  .menu-4 h2 h3 {
     font-size: 2.4em;
   }
 
@@ -850,7 +842,6 @@ td {
     padding-left: 5%;
     padding-right: 5%;
   }
-
   footer h1 {
     font-size: 0.8em;
   }
@@ -925,12 +916,10 @@ td {
     margin-left: 6%;
     margin-right: 2.5%;
   }
-
   .menu-1 h2 {
     font-size: 1.6em;
   }
-
-  .menu-1 h3 {
+  .menu-1 h2 h3 {
     font-size: 1.8em;
   }
 
@@ -940,12 +929,10 @@ td {
     margin-left: 2.5%;
     margin-right: 6%;
   }
-
   .menu-2 h2 {
     font-size: 1.2em;
   }
-
-  .menu-2 h3 {
+  .menu-2 h2 h3 {
     font-size: 1.6em;
   }
 
@@ -955,12 +942,10 @@ td {
     margin-left: 6%;
     margin-right: 2.5%;
   }
-
   .menu-3 h2 {
     font-size: 1.8em;
   }
-
-  .menu-3 h3 {
+  .menu-3 h2 h3 {
     font-size: 2.2em;
   }
 
@@ -970,12 +955,10 @@ td {
     margin-left: 2.5%;
     margin-right: 6%;
   }
-
   .menu-4 h2 {
     font-size: 1.5em;
   }
-
-  .menu-4 h3 {
+  .menu-4 h2 h3 {
     font-size: 2.2em;
   }
 
@@ -1075,12 +1058,10 @@ td {
     max-width: 280px;
     height: 380px;
   }
-
   .menu-1 h2 {
     font-size: 1.8em;
   }
-
-  .menu-1 h3 {
+  .menu-1 h2 h3 {
     font-size: 2em;
   }
 
@@ -1088,12 +1069,10 @@ td {
     max-width: 280px;
     height: 380px;
   }
-
   .menu-2 h2 {
     font-size: 1.4em;
   }
-
-  .menu-2 h3 {
+  .menu-2 h2 h3 {
     font-size: 1.8em;
   }
 
@@ -1101,12 +1080,10 @@ td {
     max-width: 280px;
     height: 380px;
   }
-
   .menu-3 h2 {
     font-size: 2em;
   }
-
-  .menu-3 h3 {
+  .menu-3 h2 h3 {
     font-size: 2.4em;
   }
 
@@ -1114,12 +1091,10 @@ td {
     max-width: 280px;
     height: 380px;
   }
-
   .menu-4 h2 {
     font-size: 1.7em;
   }
-
-  .menu-4 h3 {
+  .menu-4 h2 h3 {
     font-size: 2.4em;
   }
 
@@ -1127,7 +1102,6 @@ td {
     width: 300px;
     margin-bottom: 7%;
   }
-
   .soon h2 {
     font-size: 1.4em;
   }
@@ -1144,14 +1118,13 @@ td {
   .menu-note {
     max-width: 900px;
   }
+  .menu-note h2 {
+    font-size: 2.2em;
+  }
 
   .bar1 {
     width: 60mm;
     height: 5mm;
-  }
-
-  .menu-note h2 {
-    font-size: 2.2em;
   }
 
   .line_1 h3 {
@@ -1170,7 +1143,6 @@ td {
   .menu-chic {
     max-width: 900px;
   }
-
   .menu-chic h2 {
     font-size: 2em;
   }
@@ -1191,7 +1163,6 @@ td {
   .menu-delice {
     max-width: 900px;
   }
-
   .menu-delice h2 {
     font-size: 2.4em;
   }
@@ -1212,7 +1183,6 @@ td {
   .menu-palette {
     max-width: 900px;
   }
-
   .menu-palette h2 {
     font-size: 2em;
   }

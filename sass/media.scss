@@ -20,51 +20,51 @@
     .menu-1{
         @include menus_media_small;
         margin-bottom: 7%;
-    }
 
-    .menu-1 h2{
-        font-size: 1.8em;
-    }
+        h2{
+            font-size: 1.8em;
 
-    .menu-1 h3{
-        font-size: 1.4em;
+            h3{
+                font-size: 1.4em;
+            }
+        }
     }
 
     .menu-2{
         @include menus_media_small;
-    }
 
-    .menu-2 h2{
-        font-size: 1.2em;
-    }
+        h2{
+            font-size: 1.2em;
 
-    .menu-2 h3{
-        font-size: 1.7em;
+            h3{
+                font-size: 1.7em;
+            }
+        }
     }
 
     .menu-3{
         @include menus_media_small;
         margin-bottom: 7%;
-    }
 
-    .menu-3 h2{
-        font-size: 1.8em;
-    }
+        h2{
+            font-size: 1.8em;
 
-    .menu-3 h3{
-        font-size: 2.4em;
+            h3{
+                font-size: 2.4em;
+            }
+        }
     }
 
     .menu-4{
         @include menus_media_small;
-    }
 
-    .menu-4 h2{
-        font-size: 1.4em;
-    }
+        h2{
+            font-size: 1.4em;
 
-    .menu-4 h3{
-        font-size: 2.4em;
+            h3{
+                font-size: 2.4em;
+            }
+        }
     }
 
     .soon{
@@ -74,11 +74,11 @@
     footer{
         padding-left: 5%;
         padding-right: 5%;
-    }
 
-    footer h1{
-        font-size: 0.8em;
-    } 
+        h1{
+            font-size: 0.8em;
+        } 
+    }
 
     .menu-note{
         margin-bottom: 20%;
@@ -140,9 +140,6 @@
     }
 }
 
-
-
-
 @media screen and (min-width: 560px){
     /*Page d'accueil*/
     header h1{
@@ -154,57 +151,57 @@
         @include menus_media_medium;
         margin-left: 6%;
         margin-right: 2.5%;
-    }
 
-    .menu-1 h2{
-        font-size:1.6em;
-    }
+        h2{
+            font-size:1.6em;
 
-    .menu-1 h3{
-        font-size: 1.8em;
+            h3{
+                font-size: 1.8em;
+            }
+        }
     }
 
     .menu-2{
         @include menus_media_medium;
         margin-left: 2.5%;
         margin-right: 6%;
+
+        h2{
+            font-size: 1.2em;
+
+            h3{
+                font-size: 1.6em;
+            }
+        }
     
-    }
-
-    .menu-2 h2{
-        font-size: 1.2em;
-    }
-
-    .menu-2 h3{
-        font-size: 1.6em;
     }
 
     .menu-3{
         @include menus_media_medium;
         margin-left: 6%;
         margin-right: 2.5%;
-    }
 
-    .menu-3 h2{
-        font-size: 1.8em;
-    }
+        h2{
+            font-size: 1.8em;
 
-    .menu-3 h3{
-        font-size: 2.2em;
+            h3{
+                font-size: 2.2em;
+            }
+        }
     }
 
     .menu-4{
         @include menus_media_medium;
         margin-left: 2.5%;
         margin-right: 6%;
-    }
 
-    .menu-4 h2{
-        font-size: 1.5em;
-    }
+        h2{
+            font-size: 1.5em;
 
-    .menu-4 h3{
-        font-size: 2.2em;
+            h3{
+                font-size: 2.2em;
+            }
+        }
     }
 
     .soon{
@@ -255,6 +252,7 @@
     .line_3 h3{
         font-size: 1.1em;
     }
+
     .menu-delice th{
         font-size: 0.9em;
     }
@@ -279,7 +277,6 @@
         font-size: 1.3em;
     }
 }
-
 @media screen and (min-width: 750px){
     /*Page d'accueil*/
    
@@ -302,60 +299,59 @@
 
    .menu-1{
        @include menus_media_large;
-      
-   }
 
-   .menu-1 h2{
-       font-size:1.8em;
-   }
+       h2{
+        font-size:1.8em;
 
-   .menu-1 h3{
-       font-size: 2em;
-   }
+            h3{
+             font-size: 2em;
+            }
+        }
+    }
 
    .menu-2{
        @include menus_media_large;
-   }
+       
+       h2{
+        font-size:1.4em;
 
-   .menu-2 h2{
-       font-size: 1.4em;
-   }
-
-   .menu-2 h3{
-       font-size: 1.8em;
-   }
+            h3{
+             font-size: 1.8em;
+            }
+        }
+    }
 
    .menu-3{
        @include menus_media_large;
-   }
 
-   .menu-3 h2{
-       font-size: 2em;
-   }
+       h2{
+        font-size: 2em;
 
-   .menu-3 h3{
-       font-size: 2.4em;
+        h3{
+            font-size: 2.4em;
+        }
+    }
    }
 
    .menu-4{
        @include menus_media_large;
+
+       h2{
+        font-size: 1.7em;
+
+        h3{
+            font-size: 2.4em;
+        }
+    }
    }
 
-   .menu-4 h2{
-       font-size: 1.7em;
-   }
-
-   .menu-4 h3{
-       font-size: 2.4em;
-   }
-   
    .soon{
        width: 300px;
        margin-bottom: 7%;
-   }
 
-   .soon h2{
-       font-size: 1.4em;
+       h2{
+        font-size: 1.4em;
+    }
    }
 
    footer h1{
@@ -369,6 +365,10 @@
    
    .menu-note{
        max-width: 900px;
+
+       h2{
+        font-size: 2.2em;
+    }
    }
 
    .bar1{
@@ -376,9 +376,6 @@
        height: 5mm;
    }
 
-   .menu-note h2{
-       font-size: 2.2em;
-   }
    .line_1 h3{
        font-size: 1.4em;  
    }
@@ -394,10 +391,11 @@
    /*Menu chic à la française*/
    .menu-chic{
         max-width: 900px;
+
+        h2{
+            font-size: 2em;
+        }
     }
-   .menu-chic h2{
-       font-size: 2em;
-   }
 
    .line_2 h3{
        font-size: 1.1em;  
@@ -414,11 +412,11 @@
    /*Menu délices des papilles*/
    .menu-delice{
         max-width: 900px;
-    }
 
-   .menu-delice h2{
-       font-size: 2.4em;
-   }
+        h2{
+            font-size: 2.4em;
+        }
+    }
 
    .line_3 h3{
        font-size: 1.3em;
@@ -434,11 +432,11 @@
    /*Menu palettes des saveurs*/
    .menu-palette{
         max-width: 900px;
-    }
 
-   .menu-palette h2{
-       font-size: 2em;
-   }
+        h2{
+            font-size: 2em;
+        }
+    }
 
    .line_4 h3{
        font-size: 1.7em;
