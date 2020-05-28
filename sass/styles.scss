@@ -208,8 +208,12 @@ footer h1{
     font-weight: normal;
 
         &:hover{
-            animation: wiggle 0.8s infinite;
-            transition-delay: 0s;
+            animation-name: wiggle;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
     }
 }
 
@@ -271,10 +275,10 @@ footer h1{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
   .line_1 h3:hover:after {
     width: 100%;
@@ -381,10 +385,10 @@ td{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
 
   .first_2 h3:hover:after {
@@ -415,10 +419,10 @@ td{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
 
 .second_2 h3:hover:after {
@@ -435,10 +439,10 @@ td{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
 
 .third_2 h3:hover:after {
@@ -506,10 +510,10 @@ td{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
 .first_3 h3:hover:after {
     width: 100%;
@@ -521,10 +525,10 @@ td{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
 .second_3 h3:hover:after {
     width: 100%;
@@ -535,10 +539,10 @@ td{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
 .third_3 h3:hover:after {
     width: 100%;
@@ -567,10 +571,10 @@ td{
     display: flex;
     height: 1.5px;
     width: 0;
+    transition-delay: 0s;
     transition-property: width;
     transition-duration: 0.7s;
     transition-timing-function: cubic-bezier(0.54, 0.08, 0.15, 0.99);
-    transition-delay: 0s;
 }
   .line_4 h3:hover:after {
     width: 100%;
