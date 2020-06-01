@@ -65,27 +65,27 @@ header{
     background-color: $back_1;
     @include menus;
 
-    svg{
-        padding-bottom: 0;
-    }
-
     h2{
-        margin-top: 0;
+        margin-top: -10%;
+        margin-bottom: 4%;
         color: #3D1319;
         font-family: 'devonshire', serif;
         font-size: 1.4em;
         font-weight: normal;
-        margin-bottom: 2%;
-    }
+    }    
+}
 
-    h3{
-        margin-top: 0;
-        color: #3D1319;
-        font-family: 'Comic sans MS', serif;
-        font-weight: normal;
-        text-transform: uppercase;
-        font-style: italic;  
-    }
+.menu-1 svg{
+    padding-bottom: 0;
+}
+
+.menu-1 h3{
+    margin-top: 0;
+    color: #3D1319;
+    font-family: 'Comic sans MS', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: italic;  
 }
 
 .menu-2{
@@ -96,15 +96,15 @@ header{
         font-family: 'Croissant One', serif;
         font-size: 0.8em;
         font-weight: normal;
-    }
+    }   
+}
 
-    h3{
-        color:#C67412 ;
-        margin-top: 0;
-        font-size: 1.5em;
-        font-family: 'Linguistics Pro', serif;
-        font-weight: 600;
-    }
+.menu-2 h3{
+    color:#C67412 ;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-family: 'Linguistics Pro', serif;
+    font-weight: 600;
 }
 
 .menu-3{
@@ -116,14 +116,14 @@ header{
         font-weight: normal;
         font-size: 1.2em;
     }
+}
 
-    h3{
-        color: #0228DD;
-        font-family: 'caveat', serif;
-        font-weight: normal;
-        font-size: 2em;
-        margin-top: 8%;
-    }
+.menu-3 h3{
+    color: #0228DD;
+    font-family: 'caveat', serif;
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 8%;
 }
 
 .menu-4{
@@ -135,14 +135,14 @@ header{
         font-size: 1.2em;
         font-style: italic;
     }
+}
 
-    h3{
-        color:#3D923A;
-        font-family: 'Caveat', serif;
-        font-weight: normal;
-        margin-top: 3%;
-        font-size: 2em;
-    }
+.menu-4 h3{
+    color:#3D923A;
+    font-family: 'Caveat', serif;
+    font-weight: normal;
+    margin-top: 3%;
+    font-size: 2em;
 }
 
 .soon{
@@ -162,21 +162,21 @@ header{
         font-weight: normal;
         font-size: 1.2em;
         padding-bottom: 0.5rem;
-    }
+    }    
+}
 
-    span{
-        font-size: 1.5em;
-        display: inline-block;
-        animation: move 2s infinite;
-        animation-timing-function: ease-in-out;
-    }
+.soon span{
+    font-size: 1.5em;
+    display: inline-block;
+    animation: move 2s infinite;
+    animation-timing-function: ease-in-out;
 
-        &:nth-child(2){
-            animation-delay: 0.2s;
-        }
-        &:nth-child(3){
-            animation-delay: 0.2s;
-        }
+    &:nth-child(2){
+        animation-delay: 0.2s;
+    }
+    &:nth-child(3){
+        animation-delay: 0.2s;
+    }
 }
 
 @keyframes move{
@@ -264,7 +264,7 @@ footer{
     h3{
         font-size: 1em;  
         text-align: center; 
-        margin-top: -2%;
+        margin-top: -1%;
         margin-bottom: 2%;
         font-weight: 600;
 
@@ -281,7 +281,7 @@ footer{
     }
 }
 
-  .line_1 h3:hover:after {
+.line_1 h3:hover:after {
     width: 100%;
     background: #3D1319;
 }
@@ -391,7 +391,7 @@ td{
     
 }
 
-  .first_2 h3:hover:after {
+.first_2 h3:hover:after {
     width: 100%;
     background: #C67412;
 }
@@ -622,16 +622,16 @@ td{
         font-size: 1.6em;
         margin-top: 0;
         color: $font;
-
-        h3{
-            color: $font;
-            text-decoration: underline;
-
-            p{
-                text-align: justify;
-            }
-        }
     }
+}
+
+.mentions h3{
+    color: $font;
+    text-decoration: underline;
+}
+
+.mentions  p{
+    text-align: justify;
 }
 
 @import "media.scss";

@@ -22,12 +22,12 @@
         margin-bottom: 7%;
 
         h2{
-            font-size: 1.8em;
-
-            h3{
-                font-size: 1.4em;
-            }
+            font-size: 1.8em;   
         }
+    }
+
+    .menu-1 h3{
+        font-size: 1.4em;
     }
 
     .menu-2{
@@ -35,11 +35,11 @@
 
         h2{
             font-size: 1.2em;
-
-            h3{
-                font-size: 1.7em;
-            }
         }
+    }
+
+    .menu-2 h3{
+        font-size: 1.7em;
     }
 
     .menu-3{
@@ -48,11 +48,11 @@
 
         h2{
             font-size: 1.8em;
-
-            h3{
-                font-size: 2.4em;
-            }
         }
+    }
+
+    .menu-3 h3{
+        font-size: 2.4em;
     }
 
     .menu-4{
@@ -60,11 +60,11 @@
 
         h2{
             font-size: 1.4em;
-
-            h3{
-                font-size: 2.4em;
-            }
         }
+    }
+
+    .menu-4 h3{
+        font-size: 2.4em;
     }
 
     .soon{
@@ -162,11 +162,11 @@
 
         h2{
             font-size:1.6em;
-
-            h3{
-                font-size: 1.8em;
-            }
         }
+    }
+
+    .menu-1 h3{
+        font-size: 1.8em;
     }
 
     .menu-2{
@@ -176,12 +176,12 @@
 
         h2{
             font-size: 1.2em;
-
-            h3{
-                font-size: 1.6em;
-            }
         }
     
+    }
+
+    .menu-2 h3{
+        font-size: 1.6em;
     }
 
     .menu-3{
@@ -190,12 +190,12 @@
         margin-right: 2.5%;
 
         h2{
-            font-size: 1.8em;
-
-            h3{
-                font-size: 2.2em;
-            }
+            font-size: 1.8em;  
         }
+    }
+
+    .menu-3 h3{
+        font-size: 2.2em;
     }
 
     .menu-4{
@@ -205,11 +205,11 @@
 
         h2{
             font-size: 1.5em;
-
-            h3{
-                font-size: 2.2em;
-            }
         }
+    }
+
+    .menu-4 h3{
+        font-size: 2.2em;
     }
 
     .soon{
@@ -310,48 +310,48 @@
 
        h2{
         font-size:1.8em;
-
-            h3{
-             font-size: 2em;
-            }
         }
     }
+
+    .menu-1 h3{
+        font-size: 2em;
+       }
 
    .menu-2{
        @include menus_media_large;
        
        h2{
         font-size:1.4em;
-
-            h3{
-             font-size: 1.8em;
-            }
         }
     }
+
+    .menu-2 h3{
+        font-size: 1.8em;
+       }
 
    .menu-3{
        @include menus_media_large;
 
        h2{
         font-size: 2em;
-
-        h3{
-            font-size: 2.4em;
         }
     }
-   }
+
+   .menu-3 h3{
+        font-size: 2.4em;
+    }
 
    .menu-4{
        @include menus_media_large;
 
        h2{
         font-size: 1.7em;
-
-        h3{
-            font-size: 2.4em;
-        }
     }
    }
+
+   .menu-4 h3{
+         font-size: 2.4em;
+    }
 
    .soon{
        width: 300px;
